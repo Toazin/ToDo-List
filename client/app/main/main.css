@@ -32,3 +32,55 @@
 .navbar-text {
     margin-left: 15px;
 }
+
+.ListContainer{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 90%;
+  background-color: green;
+  position: relative;
+  border-radius: 25px;
+/*  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+*/
+  display: flex;
+  flex-direction: column;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+.ListItem{
+  background: tomato;
+  padding: 5px;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  line-height: 50px;
+}
+.TitleTask{
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  background-color: blue;
+  text-indent: 30px;
+
+}
+.DescriptionTask{
+  text-align:center;
+  background-color: yellow;
+}
+.DateTask{
+  text-align:center;
+  background-color: grey;
+}
+.CategoryTask{
+  text-align:center;
+  background-color: brown;
+}
